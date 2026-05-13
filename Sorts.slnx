@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Sorts.UI/">
+    <Project Path="Sorts.UI/sorts.UI.csproj" />
+  </Folder>
+  <Project Path="Sorts.Core/Sorts.Core.csproj" />
+  <Project Path="Sorts.Tests/Sorts.Tests.csproj" />
+</Solution>
