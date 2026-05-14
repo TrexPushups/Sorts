@@ -18,18 +18,6 @@ public class SelectionSort<T> : ISortingAlgorithm<T> where T : IComparable<T>
 
     public T[] Sort(T[] array)
     {
-        T[] arr = (T[])array.Clone();
-        int n   = arr.Length;
-
-        for (int i = 0; i < n - 1; i++)
-        {
-            int minIdx = i;
-            for (int j = i + 1; j < n; j++)
-                if (arr[j].CompareTo(arr[minIdx]) < 0) minIdx = j;
-
-            if (minIdx != i)
-                (arr[i], arr[minIdx]) = (arr[minIdx], arr[i]);
-        }
-        return arr;
+       return array;
     }
 }
